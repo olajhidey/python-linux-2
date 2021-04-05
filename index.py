@@ -1,4 +1,4 @@
-# import bottle
+import bottle
 from bottle import route, run, Response, template
 import json
 import image
@@ -8,7 +8,7 @@ def call_service():
     image.process(directoryName)
 
 @route('/')
-def index():
+def app():
     """Home page"""
     title = "Image Processor App"
     call_service()
