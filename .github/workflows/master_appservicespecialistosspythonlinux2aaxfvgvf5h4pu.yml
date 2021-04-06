@@ -32,4 +32,4 @@ jobs:
       with:
         app-name: 'appservicespecialistosspythonlinux2aaxfvgvf5h4pu'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_b2356513c22646b4a4d11839bb653e14 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_266b84ec65ac42ea8e447d76945821e0 }}
