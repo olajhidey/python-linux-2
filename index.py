@@ -13,7 +13,7 @@ def call_service():
 def index():
     """Home page"""
     title = "Image Processor App"
-    # call_service()    ``
+    # call_service()
     return template('index.tpl',data="Request completed!", title=title)
 
 if __name__ == '__main__':
